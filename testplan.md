@@ -1,11 +1,11 @@
 # Test Plan for mkcombo_mul (SHAKTI C-Class FBox)
 
 ## 1. Overview
-This document outlines the test plan for functionally verifying the `mkcombo_mul` module of the SHAKTI C-Class FBox using Cocotb. The module performs various forms of multiplication as defined in the RISC-V ISA, particularly supporting instructions under the "M" extension (Multiply).
+This document outlines the test plan for functionally verifying the `mkmbox` module of the SHAKTI C-Class FBox using Cocotb. The module performs various forms of multiplication as defined in the RISC-V ISA, particularly supporting instructions under the "M" extension (Multiply).
 
 ## 2. Design Under Test (DUT)
 
-**Module Name**: `mkcombo_mul`
+**Module Name**: `mkmbox`
 
 ### Interface Signals
 
@@ -76,5 +76,5 @@ This document outlines the test plan for functionally verifying the `mkcombo_mul
 
 ## 8. References
 
-- [RISC-V Unprivileged ISA v2.2, M-extension](https://riscv.org/technical/specifications/)
-- SHAKTI C-Class FBox Verilog source (`mkcombo_mul.v`)
+- [RISC-V Unprivileged ISA v2.2, M-extension]
+- SHAKTI C-Class FBox Verilog source (`mkmbox.v`)
