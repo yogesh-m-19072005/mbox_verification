@@ -63,7 +63,7 @@ This document outlines the test plan for functionally verifying the `mkmbox` mod
 
 - The output value from `mv_output` must match the expected RISC-V multiplication result (based on `funct3` and `wordop`) for each random input.
 - `mv_output_valid` must be asserted before reading output.
-- Functional coverage file (`coverage_mkcombo_mul.yaml`) must show 100% bin hits.
+- Functional coverage file (`mkmbox_mul_coverage.yaml`) must show 100% bin hits.
 
 ## 7. Tools & Environment
 
